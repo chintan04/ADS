@@ -1,0 +1,38 @@
+Pipeline :
+
+A pipeline is what chains several steps together, once the initial exploration is done. For example, some codes are meant to transform features?—?normalise numericals, or turn text into vectors, or fill up missing data, they are transformers; other codes are meant to predict variables by fitting an algorithm, such as random forest or support vector machine or Native bays, they are estimators. Pipeline chains all these together which can then be applied to training data en bloc.
+
+Inshort Pipeline can help to bundle all the code to run serially.
+
+image.png
+
+Hyperparameter tuning :
+
+Most impotant thing is machine learning is to tune your model perfectly.One classifier or regressor has multiple hyperparameter .To tune it perfectly we can use Gridsearcv function .Where we can pass mutiple parameter with multiple values and it will identify best parameter for you based on your supplied data.
+
+Here we are using GridSearch CV to optimize the parameters of a classifier(MultinomialNB) in scikit
+
+
+FastText Tutorial - How to Classify Text with FastText
+https://www.youtube.com/watch?v=4l_At3oalzk
+
+Approaching (Almost) Any NLP Problem on Kaggle
+https://www.kaggle.com/abhishek/approaching-almost-any-nlp-problem-on-kaggle
+
+CNN : 
+http://xrds.acm.org/blog/2016/06/convolutional-neural-networks-cnns-illustrated-explanation/
+
+
+keras Layers :
+https://www.youtube.com/watch?v=Tp3SaRbql4k
+
+Gradient descent optimization algorithms :
+http://ruder.io/optimizing-gradient-descent/
+
+project:
+https://www.kaggle.com/mikaelhg/keras-lstm-spooky-classifier/notebook
+
+
+LSTM : 
+https://www.youtube.com/watch?v=4rG8IsKdC3U (actual implementation)
+https://www.youtube.com/watch?v=WCUNPb-5EYI (EXAMPLE - FROM TIME - 18.00)
